@@ -1,8 +1,11 @@
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background: radial-gradient(rgb(255, 255, 255), rgb(214, 214, 214));
+  font-family: 'Elephant', serif, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +13,14 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  cursor: pointer;
+}
+
+.text {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 400;
+  padding: 10px;
 }

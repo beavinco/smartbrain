@@ -1,0 +1,18 @@
+.form {
+    width: 700px;
+    background: linear-gradient(217deg,#ff0000cc,#ff000000 70.71%), linear-gradient(127deg, #00ffeacc, #00ff0000 70.71%), linear-gradient(336deg, #0000ffcc, #0000ff00 70.71%), white;
+    filter: drop-shadow(40px 15px 20px #969696);
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    color: #333333;
+}
+
+p {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 200;
+    color: #333333;
+}

@@ -1,0 +1,26 @@
+.mainblock {
+    background: white;
+    filter: drop-shadow(40px 15px 20px #969696);
+}
+
+fieldset {
+    font-family: 'Segoe Ui', sans-serif;
+}
+
+input {
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    transition: border-color 0.5s;
+}
+
+input:hover {
+
+    background: white;
+    border: 1px solid rgb(103, 103, 103);
+}
+
+label, .signIn {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 200;
+}
+
